@@ -1,0 +1,43 @@
+:root {
+  --color-white: #ffff;
+  --font-weight-regular: 400;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: rgba(48, 0, 186, 0.8);
+  font-family: "Poppins", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 92px 0px 20px 0px;
+}
+.text-link {
+  text-decoration: none;
+  color: var(--color-white);
+  font-weight: var(--font-weight-regular);
+  font-size: 25px;
+}
+.box {
+  background: rgba(220, 6, 44, 0.7);
+  padding-top: 43px;
+}
+p {
+  margin: 0;
+  color: var(--color-white);
+  font-weight: var(--font-weight-regular);
+  font-size: 40px;
+  text-align: end;
+  padding: 130px;
+}
+.display-row {
+  display: flex;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
